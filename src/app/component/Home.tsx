@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
 //
-const HomePage = () => {
+const  HomePage = () => {
   return (
-    <div className="text-white">
+    <div className="text-white ">
       {/* SECTION 1 */}
       <div
-        className="HomePage bg-black lg:mt-[-6rem] flex flex-col md:flex-row items-center justify-between px-6 md:px-10 bg-cover h-[auto] md:h-[50rem]"
+        className="HomePage c bg-black lg:mt-[-6rem] flex flex-col md:flex-row items-center justify-between px-6 md:px-10 bg-cover h-[auto] md:h-[50rem]"
         id="HomePage"
         style={{ backgroundImage: "url(/banner1.png)" }}
       >
@@ -118,11 +118,69 @@ const HomePage = () => {
               <span className="text-[#AB572D]">$ 220.00</span> 100ml
             </p>
           </div>
+          <div
+            className="h-[20rem] w-[10rem] md:h-[22rem] md:w-[12rem] rounded-lg flex flex-col items-center p-4 bg-cover bg-center"
+            style={{ backgroundImage: "url(/banner.png)" }}
+          >
+            <Image
+              src="/p2.png"
+              alt="product"
+              width={200}
+              height={200}
+              className="w-full h-auto"
+            />
+            <h1 className="text-center text-sm md:text-base">
+              Luxurious Elixir Rough
+            </h1>
+            <p className="text-center text-xs md:text-sm">
+              <span className="text-[#AB572D]">$ 220.00</span> 100ml
+            </p>
+          </div>
+          <div
+            className="h-[20rem] w-[10rem] md:h-[22rem] md:w-[12rem] rounded-lg flex flex-col items-center p-4 bg-cover bg-center"
+            style={{ backgroundImage: "url(/banner.png)" }}
+          >
+            <Image
+              src="/p3.png"
+              alt="product"
+              width={200}
+              height={200}
+              className="w-full h-auto"
+            />
+            <h1 className="text-center text-sm md:text-base">
+              Luxurious Elixir Rough
+            </h1>
+            <p className="text-center text-xs md:text-sm">
+              <span className="text-[#AB572D]">$ 220.00</span> 100ml
+            </p>
+          </div>
+         
+          <div
+            className="h-[20rem] w-[10rem] md:h-[22rem] md:w-[12rem] rounded-lg flex flex-col items-center p-4 bg-cover bg-center"
+            style={{ backgroundImage: "url(/banner.png)" }}
+          >
+            <Image
+              src="/p4.png"
+              alt="product"
+              width={200}
+              height={200}
+              className="w-full h-auto"
+            />
+            <h1 className="text-center text-sm md:text-base">
+              Luxurious Elixir Rough
+            </h1>
+            <p className="text-center text-xs md:text-sm">
+              <span className="text-[#AB572D]">$ 220.00</span> 100ml
+            </p>
+          </div>
+          
           {/* Additional product cards follow the same structure */}
         </div>
       </div>
+
     </div>
   );
 };
 
 export default HomePage;
+

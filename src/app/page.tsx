@@ -15,9 +15,9 @@ export default function Home() {
        <MobileNavbar  nav={nav} closeNav={closeNav}/>
 
         <Navbar openNav={openNav}/>
-        
 
         <HomePage/>
+        
       </div>
   );
 }

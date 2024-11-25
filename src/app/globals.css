@@ -26,7 +26,6 @@ body {
 
 
 
-
 @layer components {
   .nav-link {
     @apply relative text-white cursor-pointer text-[15px] w-fit md:block after:block after:content-['']
